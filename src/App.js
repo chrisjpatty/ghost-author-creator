@@ -21,10 +21,20 @@ function App() {
 
   const handleSubmit = () => {
     const user = {
-      ...templateUser,
-      id: Number(values.numAuthors) + 1,
-      name: values.name,
-      email: values.email,
+      meta: {
+        exported_on: Date.now(),
+        version: "3.41.3",
+      },
+      data: {
+        users: [
+          {
+            ...templateUser,
+            id: Number(values.numAuthors) + 1,
+            name: values.name,
+            email: values.email,
+          }
+        ]
+      }
     };
     download(JSON.stringify(user, null, 2), "Ghost_Author_Import.json");
   };
