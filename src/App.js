@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       <header className="underline">
-        <h1 className="underline">Ghost Author Creator</h1>
+        <h1 className="underline">👻 Ghost Author Creator</h1>
         <p>
           Use this utility to create authors for your Ghost blog without having
           to invite them as staff users (useful for adding guest authors to
