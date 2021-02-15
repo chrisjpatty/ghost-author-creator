@@ -45,7 +45,7 @@ function App() {
         <p>
           <i>
             While this should be a safe process, it never hurts to back up your
-            blog first by navigating to <strong>Labs</strong> ->{" "}
+            blog first by navigating to <strong>Labs</strong> {"->"}{" "}
             <strong>Export your content</strong> and clicking{" "}
             <strong>export</strong>.
           </i>
@@ -126,7 +126,8 @@ function App() {
         </p>
       </section>
       <footer>
-        Made with 🐮 by <a href="https://www.twitter.com/chrisjpatty">Chris Patty</a>
+        Made with 🐮 by{" "}
+        <a href="https://www.twitter.com/chrisjpatty">Chris Patty</a>
       </footer>
     </div>
   );
