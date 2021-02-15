@@ -125,6 +125,9 @@ function App() {
           </ol>
         </p>
       </section>
+      <footer>
+        Made with 🐮 by <a href="https://www.twitter.com/chrisjpatty">Chris Patty</a>
+      </footer>
     </div>
   );
 }
